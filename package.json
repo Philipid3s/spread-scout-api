@@ -1,14 +1,17 @@
 {
-  "name": "arbitrage-bot",
+  "name": "spread-scout-api",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Express service that scans Binance/KuCoin spreads with trend and net-profit filters",
+  "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "engines": {
+    "node": ">=18"
+  },
   "dependencies": {
     "axios": "^1.7.2",
     "express": "^4.19.2"
